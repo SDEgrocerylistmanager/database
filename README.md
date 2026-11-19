@@ -1,6 +1,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
 
-# Grocery List Manager
+# Grocery List Manager Database
+Database initialization information.
 
 ## Authors
 - Palmieri Filippo @FilizZPalm
