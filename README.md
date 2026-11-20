@@ -3,6 +3,11 @@
 # Grocery List Manager Database
 Database initialization information.
 
+The initial schema is in `init/`. Incremental schema changes are stored in `migrations/`; the
+database backend applies pending migrations at startup. The initialization SQL reflects the schema
+after migration `001_attach_items_to_lists.sql`, so new databases and upgraded databases use the same
+tables and constraints.
+
 ## Authors
 - Palmieri Filippo @FilizZPalm
 - Radice Lorenzo @radix54
